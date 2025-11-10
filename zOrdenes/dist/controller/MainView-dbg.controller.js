@@ -344,7 +344,8 @@ sap.ui.define(
         var sPath = jQuery.sap.getModulePath(
           "zordenes"
         );
-        var sUrl = sPath + "/ConsultaCFDIService.svc";
+        //var sUrl = sPath + "/ConsultaCFDIService.svc";
+        var sUrl = "https://consultaqr.facturaelectronica.sat.gob.mx"
         var sSoapRequest = `
             <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
                 xmlns:tem="http://tempuri.org/">
