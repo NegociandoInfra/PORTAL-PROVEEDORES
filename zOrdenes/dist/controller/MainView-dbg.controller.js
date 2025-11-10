@@ -358,24 +358,15 @@ sap.ui.define(
         $.ajax({
           url: sUrl,
           type: "POST",
-          dataType: "text", //se cambio a text por que como pasa por un proxy puede contener errores si se usa xml
+          dataType: "xml", 
           contentType: "text/xml; charset=utf-8",
           data: sSoapRequest,
           headers: {
             SOAPAction: "http://tempuri.org/IConsultaCFDIService/Consulta",
           },
           success: function (response) {
-            var oXmlDoc;
-            if (window.DOMParser) {
-              var parser = new DOMParser();
-              // La respuesta (response) es ahora la cadena de texto XML pura
-              oXmlDoc = parser.parseFromString(response, "text/xml");
-            } else {
-              // Código para Internet Explorer (si aún fuera necesario)
-              oXmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-              oXmlDoc.async = false;
-              oXmlDoc.loadXML(response);
-            }
+            var oXmlDoc = response;
+            
             // Extrae el contenido de la respuesta cuando se hace el post.
             var estado =
               oXmlDoc.getElementsByTagName("a:Estado")[0]?.textContent || "";

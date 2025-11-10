@@ -29,11 +29,11 @@ module.exports = async function (context, req) {
                 validateStatus: (status) => status >= 200 && status < 500 
             }
         );
-
+        let cleanXmlString = satResponse.data.toString();
         // 3. Devuelve la respuesta del SAT a tu aplicación UI5
         context.res = {
             status: satResponse.status,
-            body: satResponse.data,
+            body: cleanXmlString,
             headers: {
                 'Content-Type': satResponse.headers['content-type'] || 'text/xml'
             }
