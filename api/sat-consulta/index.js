@@ -30,7 +30,18 @@ module.exports = async function (context, req) {
                 validateStatus: (status) => status >= 200 && status < 500 
             }
         );
-        let cleanXmlString = satResponse.data.toString();
+        context.log('--- RESPUESTA AXIOS DATA (INICIO) ---');
+        context.log(satResponse.data);
+        context.log('--- RESPUESTA AXIOS DATA (FIN) ---');
+        let cleanXmlString = satResponse.data ? satResponse.data.toString() : '';
+
+        if (!cleanXmlString) {
+             context.res = {
+                status: 502,
+                body: "Proxy error: SAT returned success but the XML body was empty."
+            };
+            return;
+        }
         // 3. Devuelve la respuesta del SAT a tu aplicación UI5
         context.res = {
             status: satResponse.status,
