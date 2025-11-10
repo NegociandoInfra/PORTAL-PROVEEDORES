@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "route": "/api/proxy/*",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "rewrite": "https://consultaqr.facturaelectronica.sat.gob.mx"
+    }
+  ]
+}
