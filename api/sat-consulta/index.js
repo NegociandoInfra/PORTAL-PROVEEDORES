@@ -20,6 +20,7 @@ module.exports = async function (context, req) {
             satServiceUrl,
             sSoapRequest,
             {
+                responseType: 'text',
                 headers: {
                     // Headers esenciales para la petición SOAP
                     'Content-Type': 'text/xml; charset=utf-8', 
