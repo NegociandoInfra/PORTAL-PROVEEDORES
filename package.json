@@ -1,0 +1,17 @@
+{
+    "name": "ns.zOrdenes.zOrdenes",
+    "scripts": {
+        "build": "mbt build --mtar ns.zOrdenes.zOrdenes.mtar",
+        "build:workspaces": "npm run build --workspaces --if-present",
+        "deploy": "cf deploy mta_archives/ns.zOrdenes.zOrdenes.mtar --retries 0",
+        "lint": "npm run lint --workspaces --if-present",
+        "ui5lint": "npm run ui5lint --workspaces --if-present",
+        "start:zOrdenes": "npm start --workspace zOrdenes"
+    },
+    "dependencies": {
+        "mbt": "^1"
+    },
+    "workspaces": [
+        "zOrdenes"
+    ]
+}

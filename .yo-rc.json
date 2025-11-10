@@ -1,0 +1,13 @@
+{
+  "generator-ui5-project": {
+    "namespaceUI5": "ns.zOrdenes",
+    "projectName": "zOrdenes",
+    "uimoduleName": "zOrdenes",
+    "enableFPM": false,
+    "platform": "Static webserver",
+    "ui5Libs": "Local resources (OpenUI5)",
+    "newDir": false,
+    "initRepo": true,
+    "projectId": "ns.zOrdenes.zOrdenes"
+  }
+}

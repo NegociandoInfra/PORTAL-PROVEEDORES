@@ -1,0 +1,200 @@
+{
+  "Pedidos": [
+    {
+      "NoPedido": "4500014861",
+      "Solicitante": "Carlos Pérez",
+      "NombreProveedor": "Tecnología Dell S.A.",
+      "Producto": "Laptop Dell Inspiron 15",
+      "Cantidad": 2,
+      "Subtotal":2400.00,
+      "TotalImpuestosTrasladados":384.00,
+      "Total":2784.00,
+      "Fecha de entrega": "2025-07-05",
+      "Pendiente":false,
+      "PorFacturar":false,
+      "Facturado":true,
+      "RFCE":"",
+      "RFCR":"",
+      "MetodoPago":"PUE",
+      "Posiciones": [
+        {
+          "NumdePosicion": 1,
+          "Idmaterial": "MAT001",
+          "Descripción": "Laptop Dell Inspiron 15",
+          "Cantidad": 2,
+          "Unidaddemedida": "pieza",
+          "Precio": "$1200.00",
+          "Moneda": "MXN"
+        }
+      ]
+    },
+    {
+      "NoPedido": "4500014862",
+      "Solicitante": "Ana Martínez",
+      "NombreProveedor": "Soluciones HP México",
+      "Producto": "Impresora HP LaserJet Pro",
+      "Cantidad": 1,
+      "Subtotal": 3500.00,
+      "TotalImpuestosTrasladados":560.00,
+      "Total":4060.00,
+      "Fecha de entrega": "2025-06-28",
+      "Pendiente":false,
+      "PorFacturar":true,
+      "Facturado":false,
+      "RFCE":"GNE250116538",
+      "RFCR":"SPT190627VA8",
+      "MetodoPago":"PPD",
+      "Posiciones": [
+        {
+          "NumdePosicion": 1,
+          "Idmaterial": "MAT002",
+          "Descripción": "Impresora HP LaserJet Pro",
+          "Cantidad": 1,
+          "Unidaddemedida": "pieza",
+          "Precio": "$3500.00",
+          "Moneda": "MXN"
+        }
+      ]
+    },
+    {
+      "NoPedido": "4500014863",
+      "Solicitante": "Luis Gómez",
+      "NombreProveedor": "Electrónica Samsung",
+      "Producto": "Monitor Samsung 27",
+      "Cantidad": 3,
+      "Subtotal": 18000.00,
+      "TotalImpuestosTrasladados":2880.00,
+      "Total":20880.00,
+      "Fecha de entrega": "2025-07-01",
+      "Pendiente":false,
+      "PorFacturar":true,
+      "Facturado":false,
+      "RFCE":"",
+      "RFCR":"SPT190627VA8",
+      "MetodoPago":"PUE",
+      "Posiciones": [
+        {
+          "NumdePosicion": 1,
+          "Idmaterial": "MAT003",
+          "Descripción": "Monitor Samsung 27",
+          "Cantidad": 3,
+          "Unidaddemedida": "pieza",
+          "Precio": "$6000.00",
+          "Moneda": "MXN"
+        }
+      ]
+    },
+    {
+      "NoPedido": "4500014864",
+      "Solicitante": "María Rodríguez",
+      "NombreProveedor": "Periféricos Logitech",
+      "Producto": "Teclado mecánico Logitech",
+      "Cantidad": 5,
+      "Subtotal": 10000.00,
+      "TotalImpuestosTrasladados":1600.00,
+      "Total":11600.00,
+      "Fecha de entrega": "2025-06-26",
+      "Pendiente":false,
+      "PorFacturar":true,
+      "Facturado":false,
+      "RFCE":"",
+      "RFCR":"",
+      "MetodoPago":"PUE",
+      "Posiciones": [
+        {
+          "NumdePosicion": 1,
+          "Idmaterial": "MAT004",
+          "Descripción": "Teclado mecánico Logitech",
+          "Cantidad": 5,
+          "Unidaddemedida": "pieza",
+          "Precio": "$2000.00",
+          "Moneda": "MXN"
+        }
+      ]
+    },
+    {
+      "NoPedido": "4500014865",
+      "Solicitante": "Jorge Ramírez",
+      "NombreProveedor": "Accesorios Microsoft",
+      "Producto": "Mouse inalámbrico Microsoft",
+      "Cantidad": 4,
+      "Subtotal": 4000.00,
+      "TotalImpuestosTrasladados":640.00,
+      "Total":4640.00,
+      "Fecha de entrega": "2025-06-30",
+      "Pendiente":true,
+      "PorFacturar":false,
+      "Facturado":false,
+      "RFCE":"",
+      "RFCR":"",
+      "MetodoPago":"PUE",
+      "Posiciones": [
+        {
+          "NumdePosicion": 1,
+          "Idmaterial": "MAT005",
+          "Descripción": "Mouse inalámbrico Microsoft",
+          "Cantidad": 4,
+          "Unidaddemedida": "pieza",
+          "Precio": "$1000.00",
+          "Moneda": "MXN"
+        }
+      ]
+    },
+    {
+      "NoPedido": "4500014866",
+      "Solicitante": "Abel Cruz",
+      "NombreProveedor": "DDTECH ",
+      "Producto": "Teclado mecánico Razer",
+      "Cantidad": 1,
+      "Subtotal": 2000.00,
+      "TotalImpuestosTrasladados":320.00,
+      "Total":2320.00,
+      "Fecha de entrega": "2025-07-16",
+      "Pendiente":true,
+      "PorFacturar":false,
+      "Facturado":false,
+      "RFCE":"",
+      "RFCR":"",
+      "MetodoPago":"PUE",
+      "Posiciones": [
+        {
+          "NumdePosicion": 1,
+          "Idmaterial": "MAT006",
+          "Descripción": "Teclado mecánico Razer",
+          "Cantidad": 1,
+          "Unidaddemedida": "pieza",
+          "Precio": "2000.00",
+          "Moneda": "MXN"
+        }
+      ]
+    },
+    {
+      "NoPedido": "4500014867",
+      "Solicitante": "Daniel Lara",
+      "NombreProveedor": "CYBERPUERTA",
+      "Producto": "Tarjeta Grafica NVIDIA",
+      "Cantidad": 1,
+      "Subtotal": 10000.00,
+      "TotalImpuestosTrasladados":1600.00,
+      "Total":11600.00,
+      "Fecha de entrega": "2025-07-21",
+      "Pendiente":true,
+      "PorFacturar":false,
+      "Facturado":false,
+      "RFCE":"",
+      "RFCR":"",
+      "MetodoPago":"PUE",
+      "Posiciones": [
+        {
+          "NumdePosicion": 1,
+          "Idmaterial": "MAT007",
+          "Descripción": "Tarjeta Grafica NVIDIA",
+          "Cantidad": 1,
+          "Unidaddemedida": "pieza",
+          "Precio": "10000.00",
+          "Moneda": "MXN"
+        }
+      ]
+    }
+  ]
+}
