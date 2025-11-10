@@ -8,7 +8,7 @@
         "PUT",
         "DELETE"
       ],
-      "rewrite": "https://consultaqr.facturaelectronica.sat.gob.mx"
+      "rewrite": "https://consultaqr.facturaelectronica.sat.gob.mx/$1"
     }
   ]
 }
