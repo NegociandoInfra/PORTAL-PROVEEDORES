@@ -342,8 +342,7 @@ sap.ui.define(
       callSATService: function () {
         var that = this;
         var sPath = jQuery.sap.getModulePath("zordenes");
-        //var sUrl = sPath + "/ConsultaCFDIService.svc";
-        var sUrl = "/api/sat-consulta";
+        var sUrl = sPath + "/ConsultaCFDIService.svc";
         var sSoapRequest = `
             <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
                 xmlns:tem="http://tempuri.org/">
