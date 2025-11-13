@@ -45,6 +45,18 @@ sap.ui.define(
           orderId: sNoPedido,
         });
       },
+      getBP: function () {
+      const oModel = this.getOwnerComponent().getModel("mainService");
+          oModel.read("/PurchaseOrderSet", {
+            success: function (oResponse) {
+              var resulData = oResponse.results;
+              console.log("DATOS ENCONTRADOS:" , resulData);
+            },
+            error: function (oError) {
+              console.log("NO DATA FOUND");
+            },
+          });
+        },
       onQuickFilter: function (oEvent) {
         const sKey = oEvent.getParameter("key");
         switch (sKey) {

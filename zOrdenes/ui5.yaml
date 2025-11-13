@@ -8,9 +8,6 @@ server:
       afterMiddleware: compression
       configuration:
         ignoreCertError: true
-        backend:
-        - path: /ConsultaCFDIService.svc
-          url: https://consultaqr.facturaelectronica.sat.gob.mx
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:

@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require('axios'); //Libreria Axios
 
 module.exports = async function (context, req) {
     context.log('Proxy para ConsultaCFDIService del SAT iniciado.');

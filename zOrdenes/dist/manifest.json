@@ -18,6 +18,13 @@
       "localModel": {
         "type": "JSON",
         "uri": "model/localModel.json"
+      },
+      "mainService": {
+        "uri": "/api/LHPortal/sap/opu/odata/sap/ZOSRV_PURCHASE_ORDER_SRV/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
       }
     }
   },
@@ -63,6 +70,13 @@
       },
       "localModel": {
         "dataSource": "localModel",
+        "preload": true,
+        "settings": {
+          "useBatch": false
+        }
+      },
+      "mainService": {
+        "dataSource": "mainService",
         "preload": true,
         "settings": {
           "useBatch": false

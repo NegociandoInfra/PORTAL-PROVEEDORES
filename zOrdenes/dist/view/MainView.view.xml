@@ -89,6 +89,7 @@
                                             <ToolbarSpacer
                                                 id="_IDGenToolbarSpacer"
                                             />
+                                            <Button press="getBP" />
                                             <SearchField
                                                 id="searchField"
                                                 search=".onSearch"
