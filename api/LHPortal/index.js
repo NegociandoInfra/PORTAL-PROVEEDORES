@@ -12,7 +12,7 @@ module.exports = async function (context, req) {
     "base64"
   );
 
-  const odataServer = "http://s4d.virtual:443"; // servidor LH
+  const odataServer = "http://s4dhost.wdf.sap.corp:44310"; // servidor LH
 
   const odataPath = req.params.odataPath; // obtenemos el OData
 
